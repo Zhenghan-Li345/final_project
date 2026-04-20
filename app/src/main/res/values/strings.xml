@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Space Colony</string>
+
+    <!-- Main Activity -->
+    <string name="main_subtitle">Manage your crew and survive the unknown.</string>
+    <string name="btn_recruit">+ Recruit New Crew Member</string>
+    <string name="btn_quarters">Quarters</string>
+    <string name="btn_simulator">Simulator</string>
+    <string name="btn_mission_control">Mission Control</string>
+    <string name="count_quarters">Quarters: %1$d crew</string>
+    <string name="count_simulator">Simulator: %1$d crew</string>
+    <string name="count_mission_control">Mission Control: %1$d crew</string>
+    <string name="count_quarters_placeholder">Quarters: 0 crew</string>
+    <string name="count_simulator_placeholder">Simulator: 0 crew</string>
+    <string name="count_mission_control_placeholder">Mission Control: 0 crew</string>
+
+    <!-- Quarters Activity -->
+    <string name="title_quarters">Quarters</string>
+    <string name="label_crew_in_quarters">Select crew members to move:</string>
+
+    <!-- Recruit Activity -->
+    <string name="title_recruit">Recruit Crew Member</string>
+    <string name="label_name">Name</string>
+    <string name="hint_name">Enter crew member name</string>
+    <string name="label_specialization">Specialization</string>
+    <string name="btn_confirm_recruit">Recruit</string>
+    <string name="msg_recruited_as">%1$s recruited as %2$s</string>
+
+    <!-- Simulator Activity -->
+    <string name="title_simulator">Simulator</string>
+    <string name="label_crew_in_simulator">Select crew members to train or move:</string>
+
+    <!-- Mission Control Activity -->
+    <string name="title_mission_control">Mission Control</string>
+    <string name="label_select_two">Select exactly 2 crew members, then launch the mission:</string>
+    <string name="label_none_selected">Selected: none</string>
+    <string name="btn_launch_mission">Launch Mission</string>
+    <string name="title_mission_victory">Mission: VICTORY</string>
+    <string name="title_mission_defeat">Mission: DEFEAT</string>
+    <string name="label_crew_a">Crew A</string>
+    <string name="label_crew_b">Crew B</string>
+    <string name="label_threat">Threat</string>
+    <string name="msg_mission_log_idle">Mission log will appear here.</string>
+    <string name="msg_turn_idle">Turn status: waiting to launch mission.</string>
+    <string name="msg_turn_format">Current turn: %1$s</string>
+    <string name="msg_turn_enemy">Current turn: Enemy\'s Turn</string>
+    <string name="msg_turn_ended">Mission complete.</string>
+    <string name="btn_attack">Attack</string>
+    <string name="btn_defend">Defend</string>
+    <string name="btn_special_ability">Special Ability</string>
+    <string name="cd_crew_a_image">Crew A image</string>
+    <string name="cd_crew_b_image">Crew B image</string>
+    <string name="cd_threat_image">Threat image</string>
+
+    <!-- Crew item -->
+    <string name="crew_stats_format">Skill: %1$d  |  EXP: %2$d  |  Energy: %3$d/%4$d</string>
+    <string name="crew_location_format">Location: %1$s</string>
+
+    <!-- Action buttons -->
+    <string name="btn_move_to_simulator">To Simulator</string>
+    <string name="btn_move_to_mission_control">To Mission Control</string>
+    <string name="btn_move_to_quarters">To Quarters</string>
+    <string name="btn_restore_energy">Restore Energy</string>
+    <string name="btn_train">Train (+1 EXP)</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Validation messages -->
+    <string name="msg_name_empty">Please enter a name.</string>
+    <string name="msg_select_two">Please select exactly 2 crew members.</string>
+    <string name="msg_none_selected">No crew members selected.</string>
+    <string name="msg_no_crew_in_mc">No crew members are in Mission Control.</string>
+    <string name="msg_mission_already_running">A mission is already in progress.</string>
+</resources>

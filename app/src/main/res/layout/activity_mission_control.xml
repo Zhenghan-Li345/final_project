@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_mission_control"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:padding="16dp"
+        android:background="@color/bg_header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_select_two"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_turn_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/msg_turn_idle"
+        android:textColor="@color/btn_accent"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout_visual_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/iv_crew_a"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@drawable/ic_pilot"
+                android:contentDescription="@string/cd_crew_a_image" />
+
+            <TextView
+                android:id="@+id/tv_crew_a_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/label_crew_a"
+                android:textColor="@color/text_primary"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_crew_a"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="6dp"
+                android:max="100"
+                android:progress="100"
+                android:progressTint="@color/btn_primary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/iv_threat"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@drawable/ic_threat_alien"
+                android:contentDescription="@string/cd_threat_image" />
+
+            <TextView
+                android:id="@+id/tv_threat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/label_threat"
+                android:textColor="@color/text_primary"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_threat"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="6dp"
+                android:max="100"
+                android:progress="100"
+                android:progressTint="@color/btn_accent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/iv_crew_b"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@drawable/ic_engineer"
+                android:contentDescription="@string/cd_crew_b_image" />
+
+            <TextView
+                android:id="@+id/tv_crew_b_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/label_crew_b"
+                android:textColor="@color/text_primary"
+                android:textSize="12sp" />
+
+            <ProgressBar
+                android:id="@+id/progress_crew_b"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="6dp"
+                android:max="100"
+                android:progress="100"
+                android:progressTint="@color/btn_primary" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_mission_log"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/bg_card">
+
+        <TextView
+            android:id="@+id/tv_mission_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="140dp"
+            android:padding="12dp"
+            android:text="@string/msg_mission_log_idle"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_attack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:enabled="false"
+            android:text="@string/btn_attack"
+            android:backgroundTint="@color/btn_primary" />
+
+        <Button
+            android:id="@+id/btn_defend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:enabled="false"
+            android:text="@string/btn_defend"
+            android:backgroundTint="@color/bg_header" />
+
+        <Button
+            android:id="@+id/btn_special_ability"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:enabled="false"
+            android:text="@string/btn_special_ability"
+            android:backgroundTint="@color/btn_accent" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_crew"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:clipToPadding="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <Button
+            android:id="@+id/btn_move_to_quarters"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="@string/btn_move_to_quarters"
+            android:backgroundTint="@color/btn_primary" />
+
+        <Button
+            android:id="@+id/btn_launch_mission"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="@string/btn_launch_mission"
+            android:backgroundTint="@color/btn_accent" />
+
+    </LinearLayout>
+
+</LinearLayout>

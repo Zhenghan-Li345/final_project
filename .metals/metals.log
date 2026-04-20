@@ -1,0 +1,233 @@
+2026.03.30 23:34:16 INFO  Started: Metals version 1.6.6 in folders 'E:\java\project\SpaceColony' for client Cursor 1.105.1.
+2026.03.30 23:34:16 INFO  Memory monitor started
+2026.03.30 23:34:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.30 23:34:18 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java. Using fallback presentation compiler.
+2026.03.30 23:38:17 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java
+2026.03.30 23:38:17 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java. Using fallback presentation compiler.
+2026.03.30 23:43:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.30 23:43:47 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.30 23:43:47 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.30 23:43:47 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.30 23:44:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.30 23:44:11 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:11 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:11 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:12 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:11 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:12 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+3月 30, 2026 11:44:13 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 53
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:44:13 INFO  Created report: Optional[file:///E:/java/project/SpaceColony/app/src/main/java/com/example/spacecolony/model/Scientist.java]
+2026.03.30 23:44:13 INFO  empty definition using pc, found symbol in pc: _empty_/Specialization# (full report at: "E:\java\project\SpaceColony\.metals\.reports\metals-full\2026-03-30\r_empty-definition_23-44-14-072.md")
+2026.03.30 23:45:52 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.30 23:45:54 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.30 23:45:54 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.30 23:46:12 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java
+2026.03.30 23:46:12 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.30 23:46:16 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java. Using fallback presentation compiler.
+2026.03.30 23:46:26 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java
+2026.03.30 23:46:26 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.30 23:46:34 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.30 23:46:46 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:46:46 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:46:46 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:46:46 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:46:47 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:46:47 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:52:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java. Using fallback presentation compiler.
+2026.03.30 23:52:36 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java
+2026.03.30 23:52:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.30 23:52:36 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java
+2026.03.30 23:52:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:52:36 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java
+2026.03.30 23:52:38 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:52:52 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java
+2026.03.30 23:52:52 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java
+2026.03.30 23:52:52 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java
+2026.03.30 23:53:36 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java
+2026.03.30 23:53:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java. Using fallback presentation compiler.
+2026.03.30 23:53:38 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java. Using fallback presentation compiler.
+2026.03.30 23:53:38 INFO  Created report: Optional[file:///E:/java/project/SpaceColony/app/src/main/java/com/example/spacecolony/storage/Storage.java]
+2026.03.30 23:53:38 INFO  empty definition using pc, found symbol in pc: java/util/HashMap# (full report at: "E:\java\project\SpaceColony\.metals\.reports\metals-full\2026-03-30\r_empty-definition_23-53-38-915.md")
+2026.03.30 23:53:49 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java
+2026.03.30 23:53:49 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.30 23:53:50 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.30 23:54:00 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java
+2026.03.30 23:54:00 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Scientist.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\storage\Storage.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.30 23:56:24 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java
+2026.03.31 00:02:43 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.31 00:02:51 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\MainActivity.java. Using fallback presentation compiler.
+2026.03.31 00:03:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\RecruitCrewActivity.java. Using fallback presentation compiler.
+2026.03.31 00:03:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:03:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:06:00 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:06:00 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java
+2026.03.31 00:06:02 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:09:12 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:09:12 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java
+2026.03.31 00:09:14 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:09:48 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java
+2026.03.31 00:10:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:10:38 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:12:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\MainActivity.java. Using fallback presentation compiler.
+2026.03.31 00:12:24 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\RecruitCrewActivity.java. Using fallback presentation compiler.
+2026.03.31 00:12:24 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java
+2026.03.31 00:13:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:22 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:23 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:25 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:25 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:28 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:28 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:37 INFO  Created report: Optional[file:///E:/java/project/SpaceColony/app/src/main/java/com/example/spacecolony/ui/adapter/CrewMemberAdapter.java]
+2026.03.31 00:13:37 INFO  empty definition using pc, found symbol in pc: com/example/spacecolony/ui/adapter/CrewMemberAdapter#ViewHolder#getBindingAdapterPosition# (full report at: "E:\java\project\SpaceColony\.metals\.reports\metals-full\2026-03-31\r_empty-definition_00-13-37-374.md")
+2026.03.31 00:13:43 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java
+2026.03.31 00:13:44 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\adapter\CrewMemberAdapter.java. Using fallback presentation compiler.
+2026.03.31 00:13:53 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\QuartersActivity.java. Using fallback presentation compiler.
+2026.03.31 00:13:54 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\QuartersActivity.java. Using fallback presentation compiler.
+2026.03.31 00:13:54 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\QuartersActivity.java. Using fallback presentation compiler.
+2026.03.31 00:13:59 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\QuartersActivity.java. Using fallback presentation compiler.
+2026.03.31 00:13:59 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\SimulatorActivity.java. Using fallback presentation compiler.
+2026.03.31 00:14:07 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\SimulatorActivity.java. Using fallback presentation compiler.
+2026.03.31 00:14:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\SimulatorActivity.java. Using fallback presentation compiler.
+2026.03.31 00:14:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\MissionControlActivity.java. Using fallback presentation compiler.
+2026.03.31 00:23:33 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\MissionControlActivity.java. Using fallback presentation compiler.
+2026.03.31 00:31:04 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java. Using fallback presentation compiler.
+2026.03.31 00:31:06 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Specialization.java. Using fallback presentation compiler.
+2026.03.31 00:31:06 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.31 00:31:06 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.31 00:31:07 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Medic.java. Using fallback presentation compiler.
+2026.03.31 00:31:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Medic.java. Using fallback presentation compiler.
+2026.03.31 00:31:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:31:10 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:31:11 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.31 00:31:26 WARN  no build target for: E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java
+2026.03.31 00:31:26 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+2026.03.31 00:31:29 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionEngine.java. Using fallback presentation compiler.
+3月 31, 2026 12:31:29 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 301
+2026.03.31 00:31:32 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.31 00:31:32 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.31 00:31:35 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\ThreatFactory.java. Using fallback presentation compiler.
+2026.03.31 00:31:35 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewLocation.java. Using fallback presentation compiler.
+2026.03.31 00:31:35 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewLocation.java. Using fallback presentation compiler.
+2026.03.31 00:31:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.31 00:31:35 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.03.31 00:31:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Medic.java. Using fallback presentation compiler.
+2026.03.31 00:31:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Medic.java. Using fallback presentation compiler.
+2026.03.31 00:31:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.31 00:31:36 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Soldier.java. Using fallback presentation compiler.
+2026.03.31 00:31:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:31:37 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:31:56 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:48:34 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.03.31 00:48:34 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\MissionControlActivity.java. Using fallback presentation compiler.
+2026.03.31 00:48:40 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\MissionControlActivity.java. Using fallback presentation compiler.
+2026.03.31 00:48:56 INFO  no build target found for E:\java\project\SpaceColony\app\src\main\java\com\example\spacecolony\ui\MissionControlActivity.java. Using fallback presentation compiler.
+2026.03.31 00:57:50 INFO  Shutting down server
+2026.03.31 00:57:50 INFO  Memory monitor stopped
+2026.03.31 00:57:50 INFO  shutting down Metals
+2026.03.31 00:57:50 INFO  Exiting server
+2026.04.15 03:25:27 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.15 03:25:27 INFO  Memory monitor started
+2026.04.15 03:25:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 03:25:29 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionControl.java. Using fallback presentation compiler.
+2026.04.15 03:26:45 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionControl.java. Using fallback presentation compiler.
+2026.04.15 03:26:45 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionControl.java
+2026.04.15 03:28:04 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionControl.java
+2026.04.15 03:28:16 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\manager\MissionControl.java. Using fallback presentation compiler.
+2026.04.15 03:39:22 INFO  Shutting down server
+2026.04.15 03:39:22 INFO  Memory monitor stopped
+2026.04.15 03:39:22 INFO  shutting down Metals
+2026.04.15 03:56:53 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.15 03:56:53 INFO  Memory monitor started
+2026.04.15 03:56:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.15 03:56:54 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:00:33 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 04:00:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:00:41 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 04:00:41 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:42:16 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:42:16 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 04:42:16 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:46:47 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 04:46:47 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 04:47:00 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 04:47:00 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 07:00:56 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.15 07:00:56 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.15 07:00:57 INFO  Shutting down server
+2026.04.15 07:00:57 INFO  Memory monitor stopped
+2026.04.15 07:00:57 INFO  shutting down Metals
+2026.04.15 07:00:57 INFO  Exiting server
+2026.04.16 00:30:23 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.16 00:30:28 INFO  Memory monitor started
+2026.04.16 00:30:30 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.16 00:30:30 INFO  Shutting down server
+2026.04.16 00:30:30 INFO  Memory monitor stopped
+2026.04.16 00:30:30 INFO  shutting down Metals
+2026.04.16 00:30:30 INFO  Exiting server
+2026.04.17 06:28:28 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.17 06:28:28 INFO  Memory monitor started
+2026.04.17 06:28:32 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.17 06:28:33 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 06:28:42 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 06:28:54 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 06:29:18 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:01:41 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:01:41 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:01:41 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:02:50 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:02:50 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:11:33 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:11:33 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:11:37 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:11:37 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:13:32 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:13:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:13:36 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:13:36 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:13:37 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:13:37 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:14:06 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:14:06 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:14:06 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:19:20 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:19:20 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 08:19:31 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 08:19:31 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 21:43:05 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.17 21:43:05 INFO  Memory monitor started
+2026.04.17 21:43:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.17 21:43:09 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 21:43:13 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 21:43:27 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 21:43:48 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 23:19:09 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.17 23:19:09 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.17 23:19:09 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.18 05:03:09 INFO  Shutting down server
+2026.04.18 05:03:09 INFO  Memory monitor stopped
+2026.04.18 05:03:09 INFO  shutting down Metals
+2026.04.18 05:03:09 INFO  Exiting server
