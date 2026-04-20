@@ -10,10 +10,6 @@ import com.example.spacecolony.storage.Storage;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Handles cooperative mission combat and threat creation using a player-driven
- * turn state machine.
- */
 public class MissionControl {
 
     public interface MissionUpdateListener {

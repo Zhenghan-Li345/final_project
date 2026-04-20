@@ -17,13 +17,6 @@ import com.example.spacecolony.ui.adapter.CrewMemberAdapter;
 
 import java.util.List;
 
-/**
- * Displays crew members currently in QUARTERS.
- * The user checks one or more crew members, then taps a button to move them
- * to the Simulator or Mission Control.
- * Energy is restored automatically when crew members arrive in Quarters
- * (handled by Storage.moveCrewMember).
- */
 public class QuartersActivity extends AppCompatActivity {
 
     private CrewMemberAdapter adapter;
@@ -33,7 +26,6 @@ public class QuartersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quarters);
 
-        // Set up RecyclerView with multi-select adapter (no click listener needed)
         RecyclerView recyclerView = findViewById(R.id.rv_crew);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new CrewMemberAdapter();
@@ -63,18 +55,11 @@ public class QuartersActivity extends AppCompatActivity {
         refreshList();
     }
 
-    /** Reloads crew in QUARTERS from Storage and notifies the adapter. */
     private void refreshList() {
         List<CrewMember> updated = Storage.getCrewMembersByLocation(CrewLocation.QUARTERS);
         adapter.updateList(updated);
     }
 
-    /**
-     * Moves all selected crew members to the given location.
-     * Shows a toast if no crew member is selected.
-     *
-     * @param destination the target location
-     */
     private void moveSelected(CrewLocation destination) {
         List<CrewMember> selected = adapter.getSelectedCrewMembers();
         if (selected.isEmpty()) {

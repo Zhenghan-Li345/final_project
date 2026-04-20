@@ -307,3 +307,69 @@
 2026.04.20 10:14:05 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
 2026.04.20 10:16:33 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
 2026.04.20 10:16:33 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:16:34 INFO  Started: Metals version 1.6.7 in folders 'E:\java\A_project\SpaceColony' for client Cursor 1.105.1.
+2026.04.21 00:16:39 INFO  Memory monitor started
+2026.04.21 00:16:44 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.21 00:16:45 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:16:58 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:17:22 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:22 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:22 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:25:22 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:25 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:25 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:25:25 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:27 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:27 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:25:27 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:29 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:29 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:25:29 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:30 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:30 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:25:31 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:25:31 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:00 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:00 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:01 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:01 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:03 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:03 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:03 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:03 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:04 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:04 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:05 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:05 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:07 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:07 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:07 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:07 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:08 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:08 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:08 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:08 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:31 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:31 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:32 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:32 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:34 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:36 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:36 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:36 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:37 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:37 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:39 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:39 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:39 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:40 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:26:40 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:26:41 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java. Using fallback presentation compiler.
+2026.04.21 00:30:34 INFO  no build target found for E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java. Using fallback presentation compiler.
+2026.04.21 00:35:31 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java
+2026.04.21 00:35:31 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java
+2026.04.21 00:35:48 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\Threat.java
+2026.04.21 00:35:48 WARN  no build target for: E:\java\A_project\SpaceColony\app\src\main\java\com\example\spacecolony\model\CrewMember.java

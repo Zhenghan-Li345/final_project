@@ -17,22 +17,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * RecyclerView adapter for displaying a list of CrewMember objects.
- * Supports multi-selection via CheckBox on each row.
- * Reused across QuartersActivity, SimulatorActivity, and MissionControlActivity.
- *
- * Each row shows:
- *   - crew member name
- *   - specialization
- *   - effective skill, experience, energy/maxEnergy, current location
- *   - a CheckBox for selection
- *
- * Selected crew member IDs are tracked internally.
- * Call getSelectedCrewMembers() to retrieve the selected items.
- * Call clearSelection() to deselect all.
- * Call updateList() to refresh the data.
- */
 public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.ViewHolder> {
 
     // The current list of crew members to display
@@ -45,12 +29,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
     // Public data methods
     // -------------------------------------------------------------------------
 
-    /**
-     * Replaces the current list with a new one and refreshes the view.
-     * Clears any existing selection.
-     *
-     * @param newList updated list of crew members
-     */
     public void updateList(List<CrewMember> newList) {
         crewList.clear();
         crewList.addAll(newList);
@@ -58,11 +36,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
         notifyDataSetChanged();
     }
 
-    /**
-     * Returns all crew members that are currently selected (checked).
-     *
-     * @return list of selected CrewMember objects
-     */
     public List<CrewMember> getSelectedCrewMembers() {
         List<CrewMember> selected = new ArrayList<>();
         for (CrewMember member : crewList) {
@@ -73,17 +46,10 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
         return selected;
     }
 
-    /**
-     * Clears all selections and refreshes the view.
-     */
     public void clearSelection() {
         selectedIds.clear();
         notifyDataSetChanged();
     }
-
-    // -------------------------------------------------------------------------
-    // RecyclerView.Adapter overrides
-    // -------------------------------------------------------------------------
 
     @NonNull
     @Override
@@ -99,7 +65,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
         boolean isSelected = selectedIds.contains(member.getId());
         holder.bind(member, isSelected);
 
-        // Toggle selection when the row is tapped
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -122,13 +87,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
         return crewList.size();
     }
 
-    // -------------------------------------------------------------------------
-    // ViewHolder
-    // -------------------------------------------------------------------------
-
-    /**
-     * Holds references to all views inside one crew member list item.
-     */
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         private final TextView tvName;
@@ -146,12 +104,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
             checkBox         = itemView.findViewById(R.id.cb_crew_select);
         }
 
-        /**
-         * Binds one CrewMember's data to this row's views.
-         *
-         * @param member     the crew member to display
-         * @param isSelected whether this item is currently selected
-         */
         public void bind(CrewMember member, boolean isSelected) {
             tvName.setText(member.getName());
             tvSpecialization.setText(member.getSpecialization().toString());
@@ -170,8 +122,6 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
                     R.string.crew_location_format,
                     member.getLocationLabel()));
 
-            // Sync checkbox with selection state.
-            // Temporarily remove listener to prevent recursive callbacks.
             checkBox.setOnCheckedChangeListener(null);
             checkBox.setChecked(isSelected);
         }

@@ -27,9 +27,6 @@ import com.example.spacecolony.ui.adapter.CrewMemberAdapter;
 
 import java.util.List;
 
-/**
- * Mission Control screen with player-controlled turn-based combat.
- */
 public class MissionControlActivity extends AppCompatActivity {
 
     private static final long THREAT_TURN_DELAY_MS = 350L;

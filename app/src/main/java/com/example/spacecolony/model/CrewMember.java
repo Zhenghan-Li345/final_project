@@ -1,9 +1,5 @@
 package com.example.spacecolony.model;
 
-/**
- * Abstract base class representing a crew member in Space Colony.
- * All five specializations extend this class.
- */
 public abstract class CrewMember {
 
     private int id;
@@ -21,20 +17,6 @@ public abstract class CrewMember {
     private int victories;
     private int trainingSessions;
 
-    /**
-     * Constructs a new CrewMember.
-     * New crew members always start with:
-     * - experience = 0
-     * - energy = maxEnergy
-     * - location = QUARTERS
-     *
-     * @param id             unique identifier assigned by Storage
-     * @param name           crew member's name
-     * @param baseSkill      base skill value for this specialization
-     * @param resilience     damage reduction value
-     * @param maxEnergy      maximum energy (also starting energy)
-     * @param specialization the crew member's specialization
-     */
     public CrewMember(int id, String name, int baseSkill, int resilience,
                       int maxEnergy, Specialization specialization) {
         this.id = id;
@@ -51,15 +33,6 @@ public abstract class CrewMember {
         this.trainingSessions = 0;
     }
 
-    // -------------------------------------------------------------------------
-    // Core game methods
-    // -------------------------------------------------------------------------
-
-    /**
-     * Returns the effective skill, which is base skill plus accumulated experience.
-     *
-     * @return effective skill value
-     */
     public int getEffectiveSkill() {
         return baseSkill + experience;
     }
@@ -72,90 +45,49 @@ public abstract class CrewMember {
         return getEffectiveSkill() + getMissionRandomBonus();
     }
 
-    /**
-     * Standard attack action.
-     */
     public int act() {
         return getMissionPower();
     }
 
-    /**
-     * Special ability action.
-     * Default behavior matches a normal attack unless a subclass overrides it.
-     */
     public int useSpecialAbility() {
         return act();
     }
 
-    /**
-     * Human-readable special ability name for combat log messages.
-     */
     public String getSpecialAbilityName() {
         return "Special Ability";
     }
 
-    /**
-     * The crew member defends against an incoming attack.
-     * Damage taken = max(0, incomingPower - resilience).
-     *
-     * @param incomingPower the attacker's power
-     */
+    /** Applies incoming damage after defense. */
     public void defend(int incomingPower) {
         int damage = Math.max(0, incomingPower - resilience);
         applyDamage(damage);
     }
 
-    /**
-     * Adds experience to the crew member.
-     *
-     * @param amount amount of experience to add (must be positive)
-     */
     public void gainExperience(int amount) {
         if (amount > 0) {
             experience += amount;
         }
     }
 
-    /**
-     * Restores the crew member's energy to maxEnergy.
-     * Called when a crew member returns to Quarters.
-     * Experience is NOT reset.
-     */
     public void restoreEnergy() {
         energy = maxEnergy;
     }
 
-    /**
-     * Returns true if the crew member is still alive (energy > 0).
-     *
-     * @return true if alive
-     */
     public boolean isAlive() {
         return energy > 0;
     }
 
-    /**
-     * Stores the current battle context for subclass-specific behavior.
-     *
-     * @param currentThreat current threat in the mission
-     * @param ally          the other crew member in the mission
-     */
     public void setCombatContext(Threat currentThreat, CrewMember ally) {
         this.currentThreat = currentThreat;
         this.ally = ally;
     }
 
-    /**
-     * Clears battle-specific references after the mission ends.
-     */
     public void clearCombatContext() {
         this.currentThreat = null;
         this.ally = null;
     }
 
-    /**
-     * Restores persisted mutable state after recreating the subclass instance.
-     */
+    /** Restores state loaded from persistence. */
     public void applyLoadedState(int experience, int energy, CrewLocation location,
                                  int missionsCompleted, int victories, int trainingSessions) {
         this.experience = Math.max(0, experience);
@@ -219,10 +151,6 @@ public abstract class CrewMember {
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Getters and setters
-    // -------------------------------------------------------------------------
-
     public int getId() {
         return id;
     }
@@ -275,9 +203,6 @@ public abstract class CrewMember {
         this.location = location;
     }
 
-    /**
-     * Returns a readable summary of this crew member for display in lists.
-     */
     @Override
     public String toString() {
         return name + " [" + specialization + "] "

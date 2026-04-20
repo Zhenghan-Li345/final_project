@@ -17,15 +17,8 @@ import com.example.spacecolony.ui.adapter.CrewMemberAdapter;
 
 import java.util.List;
 
-/**
- * Displays crew members currently in the SIMULATOR.
- * The user checks one or more crew members, then taps a button to:
- *   - Train them (+1 EXP each)
- *   - Move them back to QUARTERS (energy restored automatically)
- */
 public class SimulatorActivity extends AppCompatActivity {
 
-    // Experience gained per training action
     private static final int TRAIN_EXP = 1;
 
     private CrewMemberAdapter adapter;
@@ -35,7 +28,6 @@ public class SimulatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simulator);
 
-        // Set up RecyclerView with multi-select adapter
         RecyclerView recyclerView = findViewById(R.id.rv_crew);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new CrewMemberAdapter();
@@ -65,16 +57,11 @@ public class SimulatorActivity extends AppCompatActivity {
         refreshList();
     }
 
-    /** Reloads crew in SIMULATOR from Storage and notifies the adapter. */
     private void refreshList() {
         List<CrewMember> updated = Storage.getCrewMembersByLocation(CrewLocation.SIMULATOR);
         adapter.updateList(updated);
     }
 
-    /**
-     * Trains all selected crew members (+1 EXP each).
-     * Shows a toast if no crew member is selected.
-     */
     private void trainSelected() {
         List<CrewMember> selected = adapter.getSelectedCrewMembers();
         if (selected.isEmpty()) {
@@ -86,15 +73,9 @@ public class SimulatorActivity extends AppCompatActivity {
             member.recordTrainingSession();
         }
         Storage.saveData(this);
-        // Refresh to show updated EXP values; selection is cleared by updateList
         refreshList();
     }
 
-    /**
-     * Moves all selected crew members back to QUARTERS.
-     * Storage.moveCrewMember restores energy automatically.
-     * Shows a toast if no crew member is selected.
-     */
     private void moveToQuarters() {
         List<CrewMember> selected = adapter.getSelectedCrewMembers();
         if (selected.isEmpty()) {

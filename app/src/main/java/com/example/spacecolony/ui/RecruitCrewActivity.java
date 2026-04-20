@@ -20,17 +20,11 @@ import com.example.spacecolony.model.Soldier;
 import com.example.spacecolony.model.Specialization;
 import com.example.spacecolony.storage.Storage;
 
-/**
- * Allows the user to recruit a new crew member.
- * The user enters a name and selects a specialization.
- * New crew members always start in QUARTERS with full energy and zero experience.
- */
 public class RecruitCrewActivity extends AppCompatActivity {
 
     private EditText etName;
     private Spinner spinnerSpec;
 
-    // Specialization order shown in the spinner
     private static final Specialization[] SPEC_ORDER = {
             Specialization.PILOT,
             Specialization.ENGINEER,
@@ -47,7 +41,6 @@ public class RecruitCrewActivity extends AppCompatActivity {
         etName      = findViewById(R.id.et_name);
         spinnerSpec = findViewById(R.id.spinner_specialization);
 
-        // Populate spinner with specialization names
         String[] specNames = new String[SPEC_ORDER.length];
         for (int i = 0; i < SPEC_ORDER.length; i++) {
             specNames[i] = SPEC_ORDER[i].toString();
@@ -66,7 +59,6 @@ public class RecruitCrewActivity extends AppCompatActivity {
         });
     }
 
-    /** Validates input, creates the crew member, adds to Storage, then returns. */
     private void recruitCrew() {
         String name = etName.getText().toString().trim();
         if (name.isEmpty()) {
@@ -84,17 +76,9 @@ public class RecruitCrewActivity extends AppCompatActivity {
                 getString(R.string.msg_recruited_as, newMember.getName(), spec),
                 Toast.LENGTH_SHORT).show();
 
-        finish(); // Return to caller (MainActivity)
+        finish();
     }
 
-    /**
-     * Creates the correct CrewMember subclass based on the chosen specialization.
-     *
-     * @param id   unique ID from Storage.generateId()
-     * @param name crew member name
-     * @param spec chosen specialization
-     * @return new CrewMember instance starting in QUARTERS
-     */
     private CrewMember createCrewMember(int id, String name, Specialization spec) {
         switch (spec) {
             case PILOT:     return new Pilot(id, name);

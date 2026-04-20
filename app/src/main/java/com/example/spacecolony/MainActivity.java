@@ -15,11 +15,6 @@ import com.example.spacecolony.ui.QuartersActivity;
 import com.example.spacecolony.ui.RecruitCrewActivity;
 import com.example.spacecolony.ui.SimulatorActivity;
 
-/**
- * Main entry point of Space Colony.
- * Shows navigation buttons and crew counts for each location.
- * Counts refresh every time the screen becomes visible (onResume).
- */
 public class MainActivity extends AppCompatActivity {
 
     private TextView tvCountQuarters;
@@ -73,11 +68,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Refresh crew counts every time we return to main menu
         refreshCounts();
     }
 
-    /** Updates the crew count labels for all three locations. */
     private void refreshCounts() {
         int quarters = Storage.getCrewMembersByLocation(CrewLocation.QUARTERS).size();
         int simulator = Storage.getCrewMembersByLocation(CrewLocation.SIMULATOR).size();
