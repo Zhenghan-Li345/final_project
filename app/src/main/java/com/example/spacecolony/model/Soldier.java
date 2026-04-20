@@ -26,12 +26,12 @@ public class Soldier extends CrewMember {
      */
     @Override
     public int act() {
-        return getEffectiveSkill();
+        return getMissionPower();
     }
 
     @Override
     public int useSpecialAbility() {
-        return getEffectiveSkill() + (BURST_DAMAGE * 2);
+        return getMissionPower() + (BURST_DAMAGE * 2);
     }
 
     @Override

@@ -17,6 +17,9 @@ public abstract class CrewMember {
     private CrewLocation location;
     private Threat currentThreat;
     private CrewMember ally;
+    private int missionsCompleted;
+    private int victories;
+    private int trainingSessions;
 
     /**
      * Constructs a new CrewMember.
@@ -43,6 +46,9 @@ public abstract class CrewMember {
         this.experience = 0;
         this.energy = maxEnergy;
         this.location = CrewLocation.QUARTERS;
+        this.missionsCompleted = 0;
+        this.victories = 0;
+        this.trainingSessions = 0;
     }
 
     // -------------------------------------------------------------------------
@@ -58,11 +64,19 @@ public abstract class CrewMember {
         return baseSkill + experience;
     }
 
+    protected int getMissionRandomBonus() {
+        return (int) (Math.random() * 3);
+    }
+
+    protected int getMissionPower() {
+        return getEffectiveSkill() + getMissionRandomBonus();
+    }
+
     /**
      * Standard attack action.
      */
     public int act() {
-        return getEffectiveSkill();
+        return getMissionPower();
     }
 
     /**
@@ -142,10 +156,14 @@ public abstract class CrewMember {
     /**
      * Restores persisted mutable state after recreating the subclass instance.
      */
-    public void applyLoadedState(int experience, int energy, CrewLocation location) {
+    public void applyLoadedState(int experience, int energy, CrewLocation location,
+                                 int missionsCompleted, int victories, int trainingSessions) {
         this.experience = Math.max(0, experience);
         this.energy = Math.max(0, Math.min(energy, maxEnergy));
         this.location = location == null ? CrewLocation.QUARTERS : location;
+        this.missionsCompleted = Math.max(0, missionsCompleted);
+        this.victories = Math.max(0, victories);
+        this.trainingSessions = Math.max(0, trainingSessions);
         clearCombatContext();
     }
 
@@ -175,6 +193,17 @@ public abstract class CrewMember {
             return;
         }
         energy = Math.min(maxEnergy, energy + amount);
+    }
+
+    public void recordMission(boolean didWin) {
+        missionsCompleted++;
+        if (didWin) {
+            victories++;
+        }
+    }
+
+    public void recordTrainingSession() {
+        trainingSessions++;
     }
 
     public String getLocationLabel() {
@@ -228,6 +257,18 @@ public abstract class CrewMember {
 
     public CrewLocation getLocation() {
         return location;
+    }
+
+    public int getMissionsCompleted() {
+        return missionsCompleted;
+    }
+
+    public int getVictories() {
+        return victories;
+    }
+
+    public int getTrainingSessions() {
+        return trainingSessions;
     }
 
     public void setLocation(CrewLocation location) {

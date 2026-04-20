@@ -54,6 +54,9 @@ public class Storage {
         int experience;
         int energy;
         CrewLocation location;
+        int missionsCompleted;
+        int victories;
+        int trainingSessions;
     }
 
     // -------------------------------------------------------------------------
@@ -76,6 +79,9 @@ public class Storage {
             record.experience = member.getExperience();
             record.energy = member.getEnergy();
             record.location = member.getLocation();
+            record.missionsCompleted = member.getMissionsCompleted();
+            record.victories = member.getVictories();
+            record.trainingSessions = member.getTrainingSessions();
             snapshot.crewMembers.add(record);
         }
 
@@ -118,7 +124,13 @@ public class Storage {
                 if (member == null) {
                     continue;
                 }
-                member.applyLoadedState(record.experience, record.energy, record.location);
+                member.applyLoadedState(
+                        record.experience,
+                        record.energy,
+                        record.location,
+                        record.missionsCompleted,
+                        record.victories,
+                        record.trainingSessions);
                 crewMap.put(member.getId(), member);
                 nextId = Math.max(nextId, member.getId() + 1);
             }

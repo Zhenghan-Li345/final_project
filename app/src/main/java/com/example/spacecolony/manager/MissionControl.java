@@ -212,6 +212,11 @@ public class MissionControl {
 
         if (!target.isAlive()) {
             appendLog(target.getName() + " has died and is removed from the crew.");
+            if (target == crewA && crewB.isAlive()) {
+                crewB.recordMission(false);
+            } else if (target == crewB && crewA.isAlive()) {
+                crewA.recordMission(false);
+            }
             Storage.removeCrewMember(target.getId());
             Storage.saveData(appContext);
 
@@ -277,16 +282,24 @@ public class MissionControl {
             completedMissionCount++;
             appendLog("Result: VICTORY");
             if (crewA.isAlive()) {
+                crewA.recordMission(true);
                 crewA.gainExperience(EXPERIENCE_REWARD);
                 crewA.setLocation(CrewLocation.MISSION_CONTROL);
                 appendLog(crewA.getName() + " gained " + EXPERIENCE_REWARD + " experience.");
             }
             if (crewB.isAlive()) {
+                crewB.recordMission(true);
                 crewB.gainExperience(EXPERIENCE_REWARD);
                 crewB.setLocation(CrewLocation.MISSION_CONTROL);
                 appendLog(crewB.getName() + " gained " + EXPERIENCE_REWARD + " experience.");
             }
         } else {
+            if (crewA.isAlive()) {
+                crewA.recordMission(false);
+            }
+            if (crewB.isAlive()) {
+                crewB.recordMission(false);
+            }
             appendLog("Mission failed. All crew members lost.");
         }
 

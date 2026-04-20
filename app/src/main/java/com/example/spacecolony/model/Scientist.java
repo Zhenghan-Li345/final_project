@@ -26,7 +26,7 @@ public class Scientist extends CrewMember {
      */
     @Override
     public int act() {
-        return getEffectiveSkill();
+        return getMissionPower();
     }
 }
 

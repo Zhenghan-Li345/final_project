@@ -83,6 +83,7 @@ public class SimulatorActivity extends AppCompatActivity {
         }
         for (CrewMember member : selected) {
             member.gainExperience(TRAIN_EXP);
+            member.recordTrainingSession();
         }
         Storage.saveData(this);
         // Refresh to show updated EXP values; selection is cleared by updateList

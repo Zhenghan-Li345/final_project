@@ -26,7 +26,7 @@ public class Medic extends CrewMember {
      */
     @Override
     public int act() {
-        return getEffectiveSkill();
+        return getMissionPower();
     }
 
     @Override

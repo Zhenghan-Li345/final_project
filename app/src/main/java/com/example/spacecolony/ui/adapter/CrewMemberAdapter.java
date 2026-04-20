@@ -162,6 +162,9 @@ public class CrewMemberAdapter extends RecyclerView.Adapter<CrewMemberAdapter.Vi
                             member.getExperience(),
                             member.getEnergy(),
                             member.getMaxEnergy())
+                            + " | Missions: " + member.getMissionsCompleted()
+                            + " | Wins: " + member.getVictories()
+                            + " | Training: " + member.getTrainingSessions()
             );
             tvLocation.setText(itemView.getContext().getString(
                     R.string.crew_location_format,
